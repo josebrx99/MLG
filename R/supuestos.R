@@ -1,4 +1,5 @@
 supuestos = function(model, col) {
+  options(warn=-1)
   # Normalidad
   library(MASS); library(lmtest)
 
